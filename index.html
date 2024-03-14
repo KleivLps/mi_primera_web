@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi_primera_web</title>
+    <script src="https://kit.fontawesome.com/93d96ff723.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"></a><i class="fa-solid fa-skull"></i>
+            <nav class="checker">
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="inicio">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#quien soy">Quien Soy</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#Recursos">Recursos</a></li>
+                    <li><a href="#Portafolio">Portafolio</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="Acerca">
+                    <h2>Acerca de mi</h2>
+                    <p>¡Hola!</p>
+                    <p class="parrafito">
+                        Soy kleiver, arquitecto colegiado con 2 años de experiencia, tengo 22 años, cuento con conocimientos
+                        en todo tipo de diseño y construccion estructural, ademas de renderizado y recorrido virtual 3D,
+                        domino el B.I.M a la perfeccion y puedo diseñar desde una simple casa hasta un departamento
+                        multifamiliar. 
+                    </p>
+                </div>
+                <div class="imagen">
+                    <img class="selfie" src="img/foto1.png" width="750px">   
+                </div>
+            </section>
+            <section class="seccion-2">
+                <img class="oficina" src="img/Foto2.png">
+                <img class="elevacion" src="img/Foto3.png">
+            </section>
+        </main>
+        <div class="card-container">
+            <div class="card">
+                <img src="img/foto4.jpg">
+                <div class="card-content">
+                    <h3>Interiores</h3>
+                    <p>
+                        Imagenes de Sala, comedores y como diseñarlos
+                    </p>
+                    <a href="Dormitorio" class="letras">Leer mas</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/foto5.jpg">
+                <div class="card-content">
+                    <h3>Dormitorios</h3>
+                    <p>
+                        Imagenes de Dormitorios y como diseñarlos
+                    </p>
+                    <a href="Dormitorio" class="letras">Leer mas</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/foto6.jpg">
+                <div class="card-content">
+                    <h3>Exteriores</h3>
+                    <p>
+                        Imagenes de Exteriores y como diseñarlos
+                    </p>
+                    <a href="Dormitorio" class="letras">Leer mas</a>
+                </div>
+            </div>
+        </div>
+        <footer class="inform">
+            <h1> Contacto</h1>
+            <p><em>¡esperemos tu consulta!</em></p>
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text"/>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="Tuemail@algo.com"/>
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" ></textarea>
+                </div> 
+            <div class="form-row">
+                <button type="submit" id="submit">Enviar</button>
+            </div>
+            <p class="alertas" id="alertas"></p>   
+            </form>
+        </footer>
+        <footer class="pie">
+             <div class="pie-de-pagina">
+                 <nav class="base">
+                     <ul class="baja">
+                        <ol class="redes"><a href="#Redes">Redes</a></ol>
+                        <ol><a href="#instagram">Instagram</a></ol>
+                        <ol><a href="#facebook">Facebook</a></ol>
+                        <ol><a href="#X">X</a></ol>
+                    </ul>        
+                </nav>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
