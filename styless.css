@@ -116,6 +116,8 @@ p{
 .card-content h3{
     font-size: 28px;
     margin-bottom: 8px;
+    display: flex;
+    align-items: center;
 }
 .card-content p{
     color: #666;
@@ -329,4 +331,8 @@ footer {
   }
   .form-row button {
     margin-left: 120px;
+ }
+ h3{
+    justify-content: center;
+    align-items: center;
  }
